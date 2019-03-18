@@ -3,7 +3,8 @@
 This code experiments with three ArcPro tools. 
 
 Code example
-python ...
+
+python ```
 import arcpy as ARCPY
 aprx=arcpy.mp.ArcGISProject("CURRENT")
 thisMap=aprx.listMaps()[0]
@@ -16,4 +17,4 @@ for layer in layerList:
         present= 1
     if present== 0:
         thisMap.addDataFromPath(ARCPY.GetParameter(0))
-...
+```
