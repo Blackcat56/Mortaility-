@@ -1,8 +1,8 @@
-# Mortaility-
-##This code was used for a project for a python class
+# Stroke Mortaility
+## This code was used for a project for a python class
 This code experiments with three ArcPro tools. 
 
-Code example
+## Code example
 
 ```python
 
