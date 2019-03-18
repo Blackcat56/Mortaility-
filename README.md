@@ -4,7 +4,9 @@ This code experiments with three ArcPro tools.
 
 Code example
 
-python ```
+```python
+
+
 import arcpy as ARCPY
 aprx=arcpy.mp.ArcGISProject("CURRENT")
 thisMap=aprx.listMaps()[0]
