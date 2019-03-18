@@ -20,7 +20,7 @@ for layer in layerList:
     if present== 0:
         thisMap.addDataFromPath(ARCPY.GetParameter(0))
 ```
-## Function:
+## Functions:
 1. Bar chart
 
 ```python
